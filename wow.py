@@ -1,8 +1,8 @@
-print('banana')
- def fibonacci(n):
-    if(n==1 or n==1):
-      fib=1
-     else:
-      fib=fib(n-1)+fib(n-2)
-     return fib
+def fibonacci(n):
+    fibo=0
+    if(n==0 or n==1):
+      fibo=1
+    else:
+      fibo=fibonacci(n-1)+fibonacci(n-2)
+    return fibo
       
